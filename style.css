@@ -136,7 +136,7 @@ body {
 }
 
 .images {
- height: 250px;
+ height: 300px;
  width: 100%;
  object-fit: cover;
 }
@@ -145,6 +145,8 @@ body {
   font-family: 'Lato', sans-serif;
   color: rgb(211, 188, 188);
   font-size: 13px;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 
 .subheadcontainer > p {
@@ -152,6 +154,7 @@ body {
   color: white;
   line-height: 22px;
   font-size: 25px;
+  margin-left: 10px;
 }
 
   
