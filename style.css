@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+}
+
+  
+/* The sidebar menu */
+ .sidenav {
+    height: 100%;
+    width: 262px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    background-color: black !important; 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    padding-top: 20px;
+}
+  
+  /* Menu SideBar */
+  .sidenav .menucontent a {
+    padding: 10px 8px 10px 40px;
+    text-decoration: none;
+    border-bottom: .5px solid #333333;
+    font-size: 15px;
+    font-family: "Lato";
+    color: white;
+    display: block;
+}
+  
+  /* Menu Hover */
+
+  .sidenav .menucontent a:hover {
+    background-color: #24890d;
+}
+
+
+  /* Search */
+  .form-control.mr-sm-2 {
+    width: 180px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 80px;
+    background-color: #191919;
+    border: 1px solid #464646;
+}
+
+  /* Recent Releases in SideBar */
+  .recentrelease > h2 {
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+  .recentrelease > .image1 {
+    width: 162px;
+    height: 162px;
+    margin-left: 40px;
+}
+
+  .recentrelease > .releasedate {
+    color: #a7a7a7;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 15px;
+    line-height: 1px;
+}
+
+  .recentrelease > .listennow {
+    color: white;
+    font-size: 13px;
+    margin-left: 40px;
+    line-height: 1px;
+      
+}
+
+  /* Special Thanks in SideBar*/
+  .specialthanks > h2 {
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+  .specialthanks > p {
+    color: white;
+    font-size: 13px;
+    margin-left: 40px;
+    line-height: 13px;
+    
+
+  /* Credits SideBar*/  
+} .credits {
+    margin-top: 40px;
+}
+
+  .credits > p {
+    color: #a7a7a7;
+    font-size: 13px;
+    margin-left: 40px;
+    line-height: 13px;
+  
+}
+
+  .credits > p > a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+
+/*Header Container Global Design*/
+.main {
+  padding-left: 262px;
+}
+
+.headcontainer {
+  position: absolute; /*ligne 1 pour coller le container à la bordure du haut de page*/
+  top: 0; /*ligne 2 pour coller le container à la bordure du haut de page*/
+  height : 350px;
+  width: 100%;
+  background-color: black;
+}
+.subheadcontainer {
+  height: 350px;
+  width: auto;
+  float: left;
+
+}
+
+.images {
+ height: auto;
+ width: 300px;
+ object-fit: contain;
+}
+
+.subheadcontainer > h1 {
+  font-family: 'Lato', sans-serif;
+  color: rgb(211, 188, 188);
+  font-size: 10px;
+}
+
+.subheadcontainer > p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
