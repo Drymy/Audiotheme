@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 
-  
+/*PARTIE STEF*/  
 /* The sidebar menu */
  .sidenav {
     height: 100%;
@@ -114,16 +114,17 @@ body {
     font-size: 13px;
   }
 
-
+/*PARTIE MELANIE*/
 /*Header Container Global Design*/
 .main {
-  padding-left: 262px;
+  width: 100%;
 }
 
 .headcontainer {
   position: absolute; /*ligne 1 pour coller le container à la bordure du haut de page*/
   top: 0; /*ligne 2 pour coller le container à la bordure du haut de page*/
   height : 350px;
+  padding-left: 262px;
   width: 100%;
   background-color: black;
 }
