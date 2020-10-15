@@ -123,34 +123,35 @@ body {
 .headcontainer {
   position: absolute; /*ligne 1 pour coller le container à la bordure du haut de page*/
   top: 0; /*ligne 2 pour coller le container à la bordure du haut de page*/
-  height : 350px;
+  height : auto;
   padding-left: 262px;
   width: 100%;
   background-color: black;
+  display: flex;
 }
-.subheadcontainer {
-  height: 350px;
-  width: auto;
-  float: left;
 
+.subheadcontainer {
+  height: auto;
+  width: 600px;
 }
 
 .images {
- height: auto;
- width: 300px;
- object-fit: contain;
+ height: 250px;
+ width: 100%;
+ object-fit: cover;
 }
 
 .subheadcontainer > h1 {
   font-family: 'Lato', sans-serif;
   color: rgb(211, 188, 188);
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .subheadcontainer > p {
   font-family: 'Lato', sans-serif;
   color: white;
-  font-size: 15px;
+  line-height: 22px;
+  font-size: 25px;
 }
 
   
